@@ -6,7 +6,7 @@ from torchvision import datasets, transforms, models
 
 # Устройство (GPU/CPU)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+pass
 # Пути к данным
 data_dir = "./data"  # Папка с подкаталогами "dogs", "cats", "bears"
 
